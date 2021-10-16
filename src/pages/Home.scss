@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap");
+
 body {
   background-image: var(--gradient-dark);
   height: 600vh;
@@ -6,10 +8,56 @@ body {
 h1 {
   margin: 0;
   color: var(--secondary);
+  font-size: 3rem;
 }
 h2 {
+  font-family: "Source Code Pro", monospace;
   margin: 0;
   color: var(--light);
+  font-size: 1.8rem;
+  background-color: var(--secondary);
+}
+.typewritten {
+  width: fit-content;
+  position: relative;
+  background: inherit;
+}
+.typewritten::before,
+.typewritten::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.typewritten::before {
+  background: inherit;
+  animation: typewriter 4s steps(9) infinite alternate;
+}
+
+.typewritten::after {
+  width: 0.2em;
+  height: 120%;
+  margin-top: -2%;
+  background: var(--light);
+  animation: typewriter 4s steps(9) infinite alternate, blink 0.75s infinite;
+}
+@keyframes typewriter {
+  20% {
+    left: 0;
+  }
+  60% {
+    left: 100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+@keyframes blink {
+  to {
+    background: transparent;
+  }
 }
 canvas {
   position: fixed;
@@ -48,6 +96,7 @@ canvas {
 h3 {
   color: var(--light);
   font-size: 3rem;
+  margin-left: 10%;
 }
 #Home-content {
   position: relative;
@@ -64,4 +113,18 @@ h3 {
   height: 70vh;
   background-image: var(--gradient-faded);
   border-radius: 30px;
+}
+
+.aos-animate {
+  .card-box {
+    animation: blur 8s forwards;
+  }
+}
+@keyframes blur {
+  0% {
+    backdrop-filter: blur(0px);
+  }
+  100% {
+    backdrop-filter: blur(8px);
+  }
 }

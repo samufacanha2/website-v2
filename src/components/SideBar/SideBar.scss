@@ -22,3 +22,7 @@ ul {
     height: 3vh;
   }
 }
+li {
+  position: relative;
+  z-index: 9;
+}
