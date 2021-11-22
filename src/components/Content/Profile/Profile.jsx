@@ -17,9 +17,8 @@ export default function Profile() {
                 Delectus repellat quos laboriosam maiores, amet quisquam quasi
                 corporis fugiat blanditiis cupiditate tempore placeat voluptate
                 quidem saepe iste fugit officia aut, illum beatae quaerat. Quas
-                nobis architecto, minima est consequatur corrupti iste fuga
-                excepturi odio reprehenderit, quidem officiis culpa? Est, libero
-                aliquam.
+                nobis, minima est consequatur corrupti iste fuga excepturi odio
+                reprehenderit, quidem officiis culpa? Est, libero aliquam.
               </p>
               <div className="profile-pic" />
             </div>
