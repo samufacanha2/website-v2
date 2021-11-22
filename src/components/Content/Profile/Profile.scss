@@ -9,5 +9,26 @@
 
 p {
   color: var(--light);
-  font-size: 2rem;
+  font-size: 1.8rem;
+}
+.left-text {
+  width: 60%;
+}
+.pic-text {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-text {
+  display: flex;
+}
+.profile-pic {
+  content: "";
+  width: 20rem;
+  min-width: 20rem;
+  height: 20rem;
+  background-image: url("../../../assets/profile-pic.jpeg");
+  background-size: cover;
+  border-radius: 50%;
+  border: dotted var(--secondary);
+  margin-bottom: 2%;
 }

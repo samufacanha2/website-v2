@@ -30,14 +30,14 @@ export const SideBar = () => {
           </li>
 
           <li>
-            <a href="#Projects">
+            <a href="#Skills">
               <i className="fas fa-calendar-alt"></i>
               <CgAlbum />
             </a>
           </li>
 
           <li>
-            <a href="#Resume">
+            <a href="#Projects">
               <i className="fas fa-chart-bar"></i>
               <CgFileDocument />
             </a>
