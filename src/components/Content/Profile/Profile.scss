@@ -2,33 +2,42 @@
   .card-box {
     background-image: var(--gradient-faded-reverse);
   }
-}
-.card-box-content {
-  padding: 2%;
-}
+  .card-box-content {
+    padding: 2%;
+    height: 100%;
+  }
 
-p {
-  color: var(--light);
-  font-size: 1.8rem;
-}
-.left-text {
-  width: 60%;
-}
-.pic-text {
-  display: flex;
-  justify-content: space-between;
-}
-.bottom-text {
-  display: flex;
-}
-.profile-pic {
-  content: "";
-  width: 20rem;
-  min-width: 20rem;
-  height: 20rem;
-  background-image: url("../../../assets/profile-pic.jpeg");
-  background-size: cover;
-  border-radius: 50%;
-  border: dotted var(--secondary);
-  margin-bottom: 2%;
+  p {
+    color: var(--light);
+    font-size: 1.8rem;
+    text-align: justify;
+  }
+  .left-text {
+    width: 60%;
+  }
+  .pic-text {
+    display: flex;
+    justify-content: space-between;
+  }
+  .bottom-text {
+    display: flex;
+    height: 45%;
+    flex-direction: column;
+    justify-content: space-between;
+    .react {
+      text-align: end;
+      font-size: 1.2rem;
+    }
+  }
+  .profile-pic {
+    content: "";
+    width: 20rem;
+    min-width: 20rem;
+    height: 20rem;
+    background-image: url("../../../assets/profile-pic.jpeg");
+    background-size: cover;
+    border-radius: 50%;
+    border: dotted var(--secondary);
+    margin-bottom: 2rem;
+  }
 }

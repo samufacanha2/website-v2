@@ -1,1 +1,42 @@
-
+#Skills {
+  color: var(--light);
+  font-size: 1.8rem;
+  text-align: justify;
+  .card-box-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .align {
+    display: flex;
+    width: 100%;
+    height: 40%;
+    justify-content: space-around;
+  }
+  .card-box-content-item {
+    height: 100%;
+    width: 30%;
+    border-left: 1px solid var(--light);
+    padding-left: 1rem;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  li {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--light);
+  }
+  .obs {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+  }
+}

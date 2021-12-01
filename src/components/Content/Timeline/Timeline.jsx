@@ -7,8 +7,14 @@ export default function Timeline() {
       <ArrowUp />
       <div data-aos="fade-up">
         <h3>Timeline</h3>
-        <div className="card-box"></div>
+        <div className="card-box">
+          <div className="card-box-content">
+            Autonomo {"->"} bolsista de desenvolvimento {"->"} estagiário de
+            desenvolvimento
+          </div>
+        </div>
       </div>
+      <ArrowDown />
     </div>
   );
 }

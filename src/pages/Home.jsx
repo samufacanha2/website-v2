@@ -20,7 +20,7 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div id="App">
       <SideBar />
       <div className="Home">
         <div className="inner-box" />
@@ -32,7 +32,7 @@ function App() {
             </h2>
           </div>
           <div data-aos="fade-left" id="box-2">
-            <p>Site desenvolvido utilizando a biblioteca React</p>
+            <p>Work in progress!</p>
           </div>
           <a data-aos="fade-down" id="arrow-down-1" href="#Profile">
             <p>Começar Tour</p>
@@ -58,7 +58,7 @@ function App() {
           }}
         />
       </div>
-    </>
+    </div>
   );
 }
 
